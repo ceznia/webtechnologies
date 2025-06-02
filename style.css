@@ -1,0 +1,9 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 110%;
+    color: rgb(75, 96, 38);
+    background-image: linear-gradient(to bottom right, #fdffc3, #d2ff9e, #abc65f);
+    text-align: center;
+    height: 100%;
+    padding: 4%;
+  }
