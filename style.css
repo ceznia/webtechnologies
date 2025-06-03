@@ -7,3 +7,13 @@ body {
     height: 100%;
     padding: 4%;
   }
+
+button {
+    background-color: #566923;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
