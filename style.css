@@ -1,19 +1,111 @@
+
+/* Genereal */
 body {
-    font-family: 'Mulish', sans-serif;
-    font-size: 110%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2rem;
     color: rgb(75, 96, 38);
     background-image: linear-gradient(to bottom right, #fdffc3, #d2ff9e, #abc65f);
     text-align: center;
     height: 100%;
-    padding: 4%;
   }
 
-button {
-    background-color: #566923;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 5px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    color: rgb(75, 96, 38);
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
+
+/* Headerbar */
+.header {
+  max-width: 1440px;
+  padding: 112px 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+  max-width: 1240px;
+  height: auto;
+  max-height: 750px;
+  object-fit: cover;
+  display: block;
+  margin-top: 80px;
+  border-radius: 8px;
+}
+
+
+/* Buttons in Header */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.button-group button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #566923;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #738a35;
+}
+
+/* Buttons in About/Introduction */
+.introduction-text .button-group {
+  justify-content: left;
+}
+
+/* Introduction Text */
+.introduction {
+  max-width: 1440px;
+  padding: 112px 100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.introduction-container {
+  display: flex;
+  align-items: center; 
+  gap: 80px; 
+  flex-wrap: wrap;
+}
+
+.introduction-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Introduction Bild */
+.introduction-image {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+  max-height: 640px;
+  object-fit: cover;
+  margin-top: 80px;
+  border-radius: 8px;
+}
+
+.introduction-image-container {
+  flex: 1;
+  min-width: 300px;
 }
